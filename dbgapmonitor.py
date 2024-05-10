@@ -70,7 +70,7 @@ def dataframe_to_slack_block_with_md_links(df):
             "type": "section",
             "text": {
                 "type": "mrkdwn",
-                "text": "*New dbGaP Authorized Requestors added in the last 7 days*",
+                "text": "@channel New dbGaP Authorized Requestors added in the last 7 days!",
             },
         }
     ]
